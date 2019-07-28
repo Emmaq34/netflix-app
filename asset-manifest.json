@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/netflix-app/static/css/main.df3d4728.chunk.css",
+    "main.js": "/netflix-app/static/js/main.696e8d8d.chunk.js",
+    "main.js.map": "/netflix-app/static/js/main.696e8d8d.chunk.js.map",
+    "runtime~main.js": "/netflix-app/static/js/runtime~main.3b6ece1f.js",
+    "runtime~main.js.map": "/netflix-app/static/js/runtime~main.3b6ece1f.js.map",
+    "static/js/2.eee75552.chunk.js": "/netflix-app/static/js/2.eee75552.chunk.js",
+    "static/js/2.eee75552.chunk.js.map": "/netflix-app/static/js/2.eee75552.chunk.js.map",
+    "index.html": "/netflix-app/index.html",
+    "precache-manifest.106595fe173003773014c800a0ca70db.js": "/netflix-app/precache-manifest.106595fe173003773014c800a0ca70db.js",
+    "service-worker.js": "/netflix-app/service-worker.js",
+    "static/css/main.df3d4728.chunk.css.map": "/netflix-app/static/css/main.df3d4728.chunk.css.map",
+    "static/media/Netflix-Logo.png": "/netflix-app/static/media/Netflix-Logo.002d2250.png"
+  }
+}
