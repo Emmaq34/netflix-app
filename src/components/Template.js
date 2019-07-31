@@ -6,22 +6,21 @@ import {connect} from 'react-redux';
 import '../App.css';
 
 class Template extends React.Component{
+
   componentDidMount() {
     this.props.fetchData();
   }
   render(){
-    console.log(this.props.data)
     const mylist = this.props.data.mylist;
     const recommendations = this.props.data.recommendations;
     const listName = this.props.listName === "mylist" ? mylist : recommendations;
     const btnType  = this.props.listName === "mylist" ? this.props.remove : this.props.add;
-    const btnName = this.props.listName === "mylist" ? "removeMovie" : "addMovie";
-    console.log(mylist);
+    const btnName = this.props.listName === "mylist" ? "Remove Movie" : "Add Movie";
     return(
       <div>
         <ul >
-          {listName.map((item, index) =>(
-            <li key={index}>
+          {listName.map(item =>(
+            <li key={item.id}>
               <img 
                 src ={item.img} 
                 alt = {item.title}
@@ -37,12 +36,7 @@ class Template extends React.Component{
 }
 
 
-const mapStateToProps = (state) => { 
-  console.log('sta', state)
-  return{
-    data: state
-  }
-};
+const mapStateToProps = (state) => ({data: state});
 
 const mapDispatchToProps = dispatch => ({
   fetchData: () => {
