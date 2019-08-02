@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff08b8073dcae6a1d0aa957cdffebdf9",
+    "revision": "ba58319c1f05dc030f26b5193539dbd0",
     "url": "/netflix-app/index.html"
   },
   {
-    "revision": "6cde8f1f2932b671dbcc",
-    "url": "/netflix-app/static/css/main.69f168f3.chunk.css"
+    "revision": "92587f9ae8c50017f4d4",
+    "url": "/netflix-app/static/css/main.85795d5d.chunk.css"
   },
   {
     "revision": "bd909a08df0b8900cb6d",
     "url": "/netflix-app/static/js/2.04004df2.chunk.js"
   },
   {
-    "revision": "6cde8f1f2932b671dbcc",
+    "revision": "92587f9ae8c50017f4d4",
     "url": "/netflix-app/static/js/main.2e746e7b.chunk.js"
   },
   {
