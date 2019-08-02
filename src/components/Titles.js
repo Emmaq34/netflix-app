@@ -1,9 +1,8 @@
 import React from 'react';
-import {connect} from 'react-redux';
 import '../App.css';
 
 function Titles (props){
-  const mylist = props.data.mylist;
+  const mylist = props.myList;
   return(
     <div>
       <ul>
@@ -17,10 +16,4 @@ function Titles (props){
   );
 }
 
-const mapStateToProps = (state) => { 
-  return{
-    data: state
-  }
-};
-
-export default connect(mapStateToProps)(Titles);
+export default Titles;

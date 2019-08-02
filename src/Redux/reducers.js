@@ -13,22 +13,22 @@ export const reducers = (state = defaultState, action) =>{
             return [];
 
         case 'REMOVE_MOVIE':
-            console.log(action.movie);
+           
             const mylistMovie = state.mylist.filter((item) => {
                 return action.movie.id !== item.id;
             });
-            console.log(mylistMovie);
+            
             return{
                 ...state,
                 mylist: mylistMovie,
                 recommendations:[...state.recommendations, action.movie]
             };
         case 'ADD_MOVIE':
-            console.log(action.movie);
+           
             const recommendationsMovie = state.recommendations.filter((item) => {
                 return action.movie.id !== item.id;
             });
-            console.log(recommendationsMovie);
+           
             return{
                 ...state,
                 recommendations: recommendationsMovie,

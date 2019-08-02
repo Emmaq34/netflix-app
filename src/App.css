@@ -10,6 +10,7 @@ ul{
 
 button{
     opacity: 0;
+    width:165px;
 }
 
 li:hover button{
