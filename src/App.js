@@ -8,6 +8,7 @@ import Template from './components/Template';
 import Titles from './components/Titles';
 import './App.css';
 
+//This component is for redering the whole web page and fetch data here to avoid fetch multiple times
 class App extends React.Component{
 
   componentDidMount() {

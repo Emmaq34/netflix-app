@@ -8,6 +8,7 @@ export const clearData = () =>({
     type : "CLEAR_DATA"
 });
 
+// fetch data from api
 export const getData = () => async dispatch =>{
     try{
         const url = "https://5d3ddc4f139f4200145323bf.mockapi.io/movies";

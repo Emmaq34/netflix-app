@@ -4,6 +4,7 @@ const defaultState = {
     recommendations: [],
   };
 
+  //This is the redux reducer
 export const reducers = (state = defaultState, action) =>{
     switch(action.type){
         case 'ADD_DATA':

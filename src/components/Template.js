@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
 
+//This is the single template for adding movies and removing movies
 function Template (props){
 
   const listName = props.listName === "mylist" ? props.myList : props.recommendationList;
   const btnType  = props.listName === "mylist" ? props.remove : props.add;
   const btnName = props.listName === "mylist" ? "Remove" : "Add";
-  
+
   return(
     <div>
       <ul >
